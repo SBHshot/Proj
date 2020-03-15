@@ -1,0 +1,216 @@
+#main {
+	width: 1920px;
+	height: 1080px;
+}
+nav a {
+	color: inherit;
+	color: #FDFAE7;
+	text-decoration: none;
+	position: relative;
+	border: 1px transparent rgba(0,0,0,0.5);
+	transition: all 0.5s linear;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+ul > li {
+	display: inline-block;
+	text-align:center
+}
+input {
+	width: 390px;
+	height: 42px;
+	position: absolute;
+	left: 213px;
+	top: 330px;
+	font-size: 25px;
+	font-family: 'Noto Sans TC', sans-serif;
+	letter-spacing: 2.4px;
+	background-color: #8A9B97;
+	color: #FDFAE7;
+	border-width: 0;
+	border:2px solid #FDFAE7;
+	text-align: center;
+	border-radius: 27px 27px 27px 27px;
+	background: url("https://raw.githubusercontent.com/ourjs/static/gh-pages/2015/arrow.png") no-repeat scroll right center transparent;
+}
+.Title p {
+	font-size: 21px
+	color: #FDFAE7;
+}
+.toolbar {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 13px;
+	letter-spacing: 2.34px;
+	position: absolute;
+	right: 350px
+}
+#menu {
+    width: 100%;
+
+}
+#menu ul {
+    display: table;
+}
+#menu ul li {
+    display: table-cell;
+}
+#Question {
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #FDFAE7;
+	font-size: 21px;
+	letter-spacing: 3.78px;
+	position: absolute;
+	top: 270px;
+	left: 212px;
+}
+#adult {
+	position: absolute;
+	top: 432px;
+	left: 212px;
+	font-size: 21px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #FDFAE7;
+	letter-spacing: 3.78px;
+}
+#child {
+	position: absolute;
+	top: 531px;
+	left: 212px;
+	font-size: 21px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #FDFAE7;
+	letter-spacing: 3.78px;
+}
+#button {
+	position: absolute;
+	top: 634px;
+	left: 227px;
+	font-size: 21px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #FDFAE7;
+	letter-spacing: 3.78px;
+	border:2px solid #FDFAE7;
+	border-radius: 27px 27px 27px 27px;
+	width: 153px;
+	height: 42px;
+}
+#first-zero {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color: #FDFAE7;
+	position: absolute;
+	top: 426px;
+	left: 349px;
+}
+#first-zero {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #FDFAE7;
+	position: absolute;
+	top: 426px;
+	left: 349px;
+}
+#second-zero {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #FDFAE7;
+	position: absolute;
+	top: 526px;
+	left: 349px;
+}
+#first-minus {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #FDFAE7;
+	position: absolute;
+	top: 418px;
+	left: 312px;
+}
+#second-minus {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #FDFAE7;
+	position: absolute;
+	top: 518px;
+	left: 312px;
+}
+#first-plus {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #FDFAE7;
+	position: absolute;
+	top: 419px;
+	left: 392px;
+}
+#second-plus {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #FDFAE7;
+	position: absolute;
+	top: 519px;
+	left: 392px;
+}
+.menu-item {
+	position: relative;
+	top: 129px;
+	padding-left: 200px;
+	font-size: 31px;
+	letter-spacing: 5.58px;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #FDFAE7;
+}
+#Center {
+	font-size: 64px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+
+#person1 {
+	z-index: -1;
+	max-width: 450px;
+	max-height: 399px;
+	position: absolute;
+	bottom: 0px;
+	right:122px;
+	top: 891px;
+
+}
+#person2 {
+	z-index: -1;
+	max-width: 450px;
+	max-height: 399px;
+	position: absolute;
+	bottom: 0px;
+	right: 392px;
+	top: 892px;
+}
+#person3 {
+	z-index: -1;
+	max-width: 450px;
+	max-height: 399px;
+	position: absolute;
+	bottom: 0px;
+	right: 610px;
+	top: 910px;
+}
+#xxx:hover {
+	background-color: #FDFAE7; 
+ 	color: #8A9B97;
+ 	position: relative;
+ 	border: transparent;
+	border-radius: 25px;
+	transition: all 0.5s linear;    
+}
+#next:hover {
+	color: red;
+}	

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<link rel="stylesheet" type="text/css" href="booking.css"/>
+	<meta charset="UTF-8">
+	<meta name="Viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<title>
+	Booking
+</title>
+
+</head>
+<body bgcolor="#8A9B97" id="main">
+	<div class="navbar">
+		<nav id="menu">
+			<ul>
+				<li class="menu-item" id="left"><a href="#" id="xxx">關於我們</a></li>
+				<li class="menu-item" id="left"><a href="#" id="xxx">館內簡介</a></li>
+				<li class="menu-item" id="Center"><a href="index.html" id="xxx">HOTEL</a></li>
+				<li class="menu-item" id="right"><a href="#" id="xxx">聯絡我們</a></li>
+				<li class="menu-item" id="right-two"><a href="#" id="xxx">立即訂房</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="toolbar">
+		<nav id="tool">
+			<ul>
+				<li><a href="#" id="xxx">LANGUAGE</a></li>
+				<li><a href="#" id="xxx">註冊/登入</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="Content">
+		<nav id="label">
+			<ul>
+				<li id="Question">您預計什麼時候入住</li>
+				<li id="adult">成人</li>
+				<li id="child">兒童</li>
+				<li id="button"><a href="#" id="next">下一步</a></li>
+				<li id="first-minus">-</li>
+				<li id="second-minus">-</li>
+				<li id="first-zero">3</li>
+				<li id="second-zero">0</li>
+				<li id="first-plus">+</li>
+				<li id="second-plus">+</li>
+			</ul>
+		</nav>
+
+
+		<input type="text" name="datetimes" />
+		<script>
+		$(function() {
+  			$('input[name="datetimes"]').daterangepicker({
+    			timePicker: true,
+    			startDate: moment().startOf('hour'),
+    			endDate: moment().startOf('hour').add(32, 'hour'),
+    			locale: {
+      				format: 'YYYY/M/DD'
+    			}
+  			});
+		});
+		</script>
+
+
+	</div>
+	<hr size="2" align="center" width="1680px" color="#FDFAE7" style="position:absolute;left: 187.5px;top: 202.5px">
+	<img src="images/person1.png" id="person1">
+	<img src="images/person2.png" id="person2">
+	<img src="images/person3.png" id="person3">
+</body>
+</html>
